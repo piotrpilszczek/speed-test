@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Upload speed test</title>
+        <link rel="stylesheet" href="assets/styles.css" />
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <div class="title">
+                <h1> Test szybkości internetu</h1>
+                <h3>Test prędkości wysyłu (uploadu) do sieci</h3>
+            </div>
+            <div id="content">
+                <label for="megabytes"><b style="font-size: 1rem">Megabajty do przesłania w pierwszym teście (po podaniu większej wartości [np. 50], program może się na parenaście sekund zawiesić):</b></label><br><br>
+                <input id="megabytes" type="number" placeholder="Megabajty do przesłania..." value="5" />
+                <br><br><br>
+                <button onclick="handleTest()" id="button1">
+                    Wykonaj test (prześlij dane)
+                </button>
+                <br>
+                <button onclick="handleFileTest()" id="button2">
+                    Wykonaj test (prześlij plik - wymaga wybrania lokalnego pliku)
+                </button>
+                <br>
+                <button onclick="handleAllTests()" id="mainButton">
+                    Wykonaj oba testy (wymaga wybrania lokalnego pliku)
+                </button>
+                <p id="statusField">
+                    Kliknij powyższy przycisk, aby rozpocząć test...
+                </p>
+                <input type="file" id="file" class="hidden" onchange="fileSelected()" />
+                <br>
+                <label for="file" class=""><b>Kliknij tutaj, aby wybrać plik potrzebny do wykonania testu <br> (nie jest to potrzebne w przypadku pierwszego testu)</b></label>
+                <p>Wybrano plik: <i id="fileChosen">brak</i></p>
+            </div>
+        </div>
+    </body>
+</html>

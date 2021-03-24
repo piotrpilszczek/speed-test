@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #2f3840;
+}
+
+#app {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#content {
+    margin-top: 60px;
+}
+
+#mainButton {
+    outline: none;
+    border: none;
+    background-color: #007459;
+    padding: 15px 40px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    transition: all .1s ease-in-out;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#mainButton[disabled] {
+    opacity: 0.5;
+}
+
+#mainButton:hover:enabled {
+    background-color: #006c54;
+    cursor: pointer;
+}
+
+#button1 {
+    outline: none;
+    border: 3px #007459 solid;
+    padding: 15px 40px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    transition: all .1s ease-in-out;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background: none;
+}
+
+#button1[disabled] {
+    opacity: 0.5;
+}
+
+#button1:hover:enabled {
+    background-color: #006c54;
+    cursor: pointer;
+}
+
+#button2 {
+    outline: none;
+    border: 3px #007459 solid;
+    padding: 15px 40px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    transition: all .1s ease-in-out;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background: none;
+}
+
+#button2[disabled] {
+    opacity: 0.5;
+}
+
+#button2:hover:enabled {
+    background-color: #006c54;
+    cursor: pointer;
+}
+
+label {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#megabytes {
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px gray solid;
+    padding-bottom: 20px;
+}
