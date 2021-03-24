@@ -3,7 +3,7 @@
 
 ### Piotr Pilszczek, 2ce-n
 
-![Wygląd aplikacji](https://i.imgur.com/etAUAYw.png)
+![Wygląd aplikacji](https://i.imgur.com/kOEoUid.png)
 
 
 ## Gdzie znaleźć aplikację?
