@@ -1,4 +1,4 @@
-const PING_URL = "https://peter.antproject.pl/ping.php";
+const PING_URL = "https://speedtestapi.000webhostapp.com/ping.php";
 const FILE_URL = "https://peter.antproject.pl/file.php"
 const BYTES = 1024 * 1024;
 let MB = BYTES * 5;
